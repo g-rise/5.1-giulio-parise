@@ -8,7 +8,7 @@ Modelació de diversos diagrames entitat-relació amb els respectius scripts **.
 ##### IT ACADEMY | NODE JS | SPRINT 5
 -------------------------
 
-### NIVELL 1 - ÒPTICA
+## NIVELL 1 - ÒPTICA
 Informatitzció de la gestió dels clients/es i vendes d'ulleres d'una òptica anomenada “Cul d'Ampolla”.
 
 #### :arrow_right: **create_òptica.sql**
@@ -32,6 +32,32 @@ Creació d'unes quantes entitats i transaccions per poder comprovar el bon funci
 - Llista els diferents proveïdors que han subministrat ulleres venudes amb èxit per l'òptica.
 
 -----------------------------
+
+## NIVELL 1 - PIZZERIA
+
+Disseny d'una base de dades per una web que permeti fer comandes de menjar a domicili en Internet.
+
+#### :arrow_right: **create_pizzeria.sql**
+
+La base de dades serà composta per les següents entitats:
+| clients | productes | categories | comandes | comanda_detalls | entregues | empleats | botigues |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+
+amb els atributs pertinents per a la gestió del negoci.
+
+#### :arrow_right: **inserts_pizzeria.sql**
+
+Creació d'unes quantes entitats i transaccions per poder comprovar el bon funcionament de la base de dades.
+
+
+#### :arrow_right: **query_òptica.sql**
+
+- Llista quants productes de tipus “Begudes”. s'han venut en una determinada localitat.
+- Llista quantes comandes ha efectuat un determinat empleat/da.
+
+-----------------------------
+
+## NIVELL 2 - YOUTUBE
 
 
 
