@@ -59,8 +59,39 @@ Creació d'unes quantes entitats i transaccions per poder comprovar el bon funci
 
 ## NIVELL 2 - YOUTUBE
 
+Creació de un model senzill de com seria la base de dades per a una versió reduïda de YouTube.
 
+Principals taules creades per aquesta base de dades:
 
+| users | subscriptions | channels | videos | playlists | tags | comments | 
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 
+#### :arrow_right: **create-youtube.sql**
 
+Archiu de creació de la base de dades.
+
+#### :arrow_right: **inserts-youtube.sql**
+
+Archiu per omplir les taules de la base de dades.
+
+---------------------------------------
+
+## NIVELL 3 - SPOTIFY
+
+Creació de un model senzill de com seria la base de dades necessària per a Spotify.
+
+Principals taules creades per aquesta base de dades:
+
+| users | subscriptions | payments | artists | albums | songs | playlists | favorite_albums | favorite_songs | follows |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+
+#### :arrow_right: **create-spotify.sql**
+
+Archiu de creació de la base de dades.
+
+#### :arrow_right: **inserts-spotify.sql**
+
+Archiu per omplir les taules de la base de dades.
+
+---------------------------------------
 
